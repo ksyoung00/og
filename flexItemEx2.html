@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>flexItemEx2</title>
+  <style>
+    body {
+       margin: 0;
+       background-color: lightblue;
+    }
+    .wrapper {
+      width: 90%;
+      margin: 10vh auto;
+    }
+    .wrapper .box {
+      list-style: none;
+      margin: 10vh auto;
+      display: flex;
+      flex-flow: wrap;
+      border-top: 1px solid black;
+      border-left: 1px solid black;
+      padding: 0;
+    }
+    .wrapper .box li {
+      /* width: 100%; */
+      flex-grow: 1; /* 기본값은 0, 1은 남은 영역을 채움 */
+      border-right: 1px solid black;
+      border-bottom: 1px solid black;
+      background-color: aliceblue;
+      padding: 10px 30px;
+    }
+    .wrapper .box li:hover {
+      background-color: lightgoldenrodyellow;
+    }
+
+    /* ul { 
+      list-style: none;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+      margin: auto 20px; padding: 0;
+      background-color: aliceblue;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    li {
+      border-top: 1px solid black;
+      border-right: 1px solid black;
+      text-align: center;
+      padding: 5px;
+      flex-grow: 1;
+    } */
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <ul class="box">
+      <li>누구든지 체포 또는 구속을</li>
+      <li>당한 때에는 즉시 변호인의</li>
+      <li>조력을 받을 권리를 가진다. 다만, 형사피고인이 스스로 변호인을 구할 수 없을 때에는</li>
+      <li>법률이 정하는 바에 의하여</li>
+      <li>국가가 변호인을 붙인다.</li>
+      <li>국가는 균형있는</li>
+      <li>국민경제의 성장</li>
+      <li>및 안정과 적정한 소득의 분배를 유지하고, 시장의 지배와 경제력의 남용을 방지하며,</li>
+      <li>경제주체간의 조화를 통한 경제의 민주화를</li>
+      <li>위하여 경제에 관한</li>
+      <li>규제와 조정을 할 수 있다.</li>
+    </ul>
+  </div>
+</body>
+</html>

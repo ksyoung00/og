@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+body {
+  font-family: 'KBO Dia Gothic', -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: capitalize;
+  background: #371f13 url(./images/dark-wood.jpg);
+}
+
+/** container **/
+.container {
+  border: 4px solid #eeb0b0;
+  width: 940px;
+  margin: 20px auto;
+  background-color: aliceblue;
+  box-sizing: border-box;
+}
+
+/** header **/
+.container header h1 {
+  box-sizing: border-box;
+  color: white;
+  height: 130px;
+  font-family: 'Nanum Myeongjo', cursive;
+  font-size: 25px;
+  line-height: 1;
+  background: #7d1e6a url(./images/logo.png) no-repeat 25px 50% / 90px ;
+  padding: 35px 0 0 130px; 
+  /* 
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center; 
+  */
+}
+.container header h1 em {
+  display: block;
+  font-family: 'Kanit', cursive;
+  font-weight: 700;
+  font-size: 36px;
+}
+.container header .global_menu {
+  background-color: #ffcd38;
+  color: #7d1e6a;
+  font-weight: 500;
+  display: flex;
+}
+.container header .global_menu li a {
+  display: block;
+  width: 90px; height: 46px;
+  line-height: 46px;
+  text-align: center;
+}
+.container header .global_menu li a:hover {
+  background-color: rgb(243, 232, 83);
+  color: rgb(128, 213, 219);
+}
